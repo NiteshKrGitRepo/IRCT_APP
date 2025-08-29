@@ -51,7 +51,9 @@ public class ERailRestController {
 		if (ticket.containsKey(ticketId)) {
 			return ResponseEntity.ok(ticket.get(ticketId));
 		}
-		return ResponseEntity.status(HttpStatus.NOT_FOUND).build();
-           int x = 10;
+		return ResponseEntity.status(HttpStatus.NOT_FOUND).build();           int x = 10;
+
+int  x= 10;
+
 	}
 }
